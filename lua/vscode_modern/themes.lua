@@ -3,7 +3,7 @@ return {
     --- @param config VSCodeModernConfig
     --- @return VSCodeModernThemeDark
     dark = function(palette, config)
-        local background = palette.dark_06
+        local background = palette.dark_01
         local statusline_bg = palette.dark_03
 
         if
@@ -25,14 +25,14 @@ return {
             palette = palette,
             ui = {
                 bg = background,
-                bg_darker_01 = palette.dark_05,
+                bg_darker_01 = palette.dark_01,
                 fg = palette.light_07,
                 cursor = {
                     bg = palette.light_03,
                     fg = palette.grey_12,
                     term = {
                         bg = palette.light_07,
-                        fg = palette.dark_05,
+                        fg = palette.dark_03,
                     },
                     line = {
                         bg = palette.grey_03,
