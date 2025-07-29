@@ -930,13 +930,13 @@ function M.get(config, theme)
         },
         ['SnacksPickerList'] = {
             bg = config.transparent_background and palette.none
-                or theme.ui.telescope.results.bg,
+                or palette.dark_01,
         },
         ['SnacksPickerListBorder'] = {
             bg = config.transparent_background and palette.none
-                or theme.ui.telescope.results.border.bg,
+                or palette.grey_01,
             fg = config.transparent_background and palette.light_02
-                or theme.ui.telescope.results.border.fg,
+                or palette.grey_01,
         },
         ['SnacksPickerListCursorLine'] = {
             bg = theme.ui.telescope.selection.bg,
@@ -944,7 +944,7 @@ function M.get(config, theme)
         ['SnacksPickerMatch'] = { fg = theme.ui.telescope.matching.fg },
         ['SnacksPickerPreview'] = {
             bg = config.transparent_background and palette.none
-                or theme.ui.telescope.preview.bg,
+                or palette.dark_01,
         },
         ['SnacksPickerPreviewBorder'] = {
             bg = config.transparent_background and palette.none
@@ -962,9 +962,13 @@ function M.get(config, theme)
         },
         ['SnacksPickerTree'] = {
             bg = config.transparent_background and palette.none
-                or theme.ui.telescope.results.bg,
+                or palette.dark_01,
             fg = theme.ui.line_nr.fg,
         },
+
+        -- Snacks Explorer (file tree)
+        ['SnacksPickerPathHidden'] = { fg = palette.grey_20 },
+        ['SnacksPickerPathIgnored'] = { fg = palette.grey_20 },
     }
 end
 
