@@ -194,7 +194,7 @@ return {
                 punctuation = palette.light_07,
                 function_name = palette.yellow_07,
                 operator = palette.light_07,
-                keyword = palette.purple_03,
+                keyword = palette.blue_25,
                 keyword_control_flow = palette.purple_03,
                 macro = palette.blue_21,
                 type = palette.green_08,
@@ -205,6 +205,7 @@ return {
                 xml_arg = palette.blue_25,
                 xml_delimiter = palette.grey_16,
                 todo = palette.magenta_01,
+                bool = palette.blue_21
             },
             git = {
                 signs = {

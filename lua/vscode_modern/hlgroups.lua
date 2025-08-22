@@ -119,7 +119,7 @@ function M.get(config, theme)
         ['Character'] = { fg = theme.sintax.character },
         ['Number'] = { fg = theme.sintax.number },
         ['Boolean'] = {
-            fg = theme.sintax.keyword,
+            fg = theme.sintax.bool,
             italic = config.italic_keyword,
         },
         ['Float'] = { fg = theme.sintax.number },
