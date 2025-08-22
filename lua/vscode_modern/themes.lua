@@ -194,7 +194,7 @@ return {
                 punctuation = palette.light_07,
                 function_name = palette.yellow_07,
                 operator = palette.light_07,
-                keyword = palette.blue_25,
+                keyword = palette.blue_21,
                 keyword_control_flow = palette.purple_03,
                 macro = palette.blue_21,
                 type = palette.green_08,
